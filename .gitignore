@@ -32,6 +32,7 @@ datasets/
 checkpoints/
 logs/
 *env/
+*.csv
 
 
 
