@@ -33,6 +33,7 @@ checkpoints/
 logs/
 *env/
 *.csv
+hlda_outputs/
 
 
 
