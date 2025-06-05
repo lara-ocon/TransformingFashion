@@ -22,7 +22,7 @@ The project uses two separate Python virtual environments to manage dependencies
   ```
 
 For `gensim` in `hdp_env`, a manual patch is required in `gensim/matutils.py` to fix a runtime error:
-- Replace `from scipy.linalg import get_blas_funcs, triu` with:
+- Replace the import of triu in line `from scipy.linalg import get_blas_funcs, triu` with:
   ```python
   from numpy import triu
   ```
